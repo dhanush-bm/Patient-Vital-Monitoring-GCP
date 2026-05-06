@@ -11,12 +11,12 @@
 •Google Cloud Storage (GCS) – Bronze & Silver layers\
 •BigQuery – Gold layer analytics\
 •Python – pipeline + simulator\
-•Looker Studio (optional) – dashboard visualization\
+•Data Studio  – dashboard visualization
 
 🏗️ Architecture: \
 •Bronze Layer: Raw streaming data stored in GCS\
 •Silver Layer: Cleaned + validated + enriched data\
-•Gold Layer: Aggregated patient-level insights in BigQuery\
+•Gold Layer: Aggregated patient-level insights in BigQuery
 
 🚀 Key Features: \
 •Processes 50–100 events/sec with <60s latency\
@@ -24,7 +24,7 @@
 •Filters invalid records (~10% error rate simulation)\
 •Computes patient risk score & risk levels (Low/Moderate/High)\
 •Performs windowed aggregation (1-minute windows)\
-•Stores analytics-ready data in BigQuery\
+•Stores analytics-ready data in BigQuery
 
 🔄 Data Pipeline Flow: \
 •Simulator generates patient vitals\
@@ -34,4 +34,4 @@
 •Raw → GCS (Bronze)\
 •Cleaned → GCS (Silver)\
 •Aggregated → BigQuery (Gold)\
-•Data Studio Report\
+•Data Studio Report
