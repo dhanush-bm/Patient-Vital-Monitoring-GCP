@@ -3,7 +3,7 @@
 📌 Project Overview: \
 •Built a real-time healthcare data pipeline on GCP to process streaming patient vitals and generate risk insights.\
 •Implements Medallion Architecture (Bronze, Silver, Gold) for structured data processing.\
-•Enables near real-time patient monitoring and analytics using cloud-native tools.\
+•Enables near real-time patient monitoring and analytics using cloud-native tools.
 
 ⚙️ Tech Stack: \
 •Google Cloud Pub/Sub – real-time data ingestion\
